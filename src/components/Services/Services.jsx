@@ -55,7 +55,7 @@ const containerVariants = {
 
 const Services = () => {
   return (
-    <div className="container my-16 space-y-4">
+    <div className="container my-16 space-y-4 ml-10">
       {/* header section  */}
       <div className="text-center max-w-lg mx-auto space-y-2">
         <motion.h1
@@ -95,7 +95,7 @@ const Services = () => {
         initial="hidden"
         whileInView={"visible"}
         viewport={{amount: 0.8}}
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ml-10">
         {servicesData.map((service) => (
           <motion.div 
             variants={cardVariants}
